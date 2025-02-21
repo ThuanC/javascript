@@ -19,11 +19,12 @@
 <body>
     <h1>Olá Mundo!</h1>
     <p>Já me livrei da maldição</p>
-
+  
     <script>
-        var n1 = window.prompt('DIgite um número: ')
-        var n2 = window.prompt('Digite outro número: ')
+        var n1 = Number(window.prompt('DIgite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
         var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
     </script>
 </body>
 </html>
